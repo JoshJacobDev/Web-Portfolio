@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Web Portfolio</title>
+    <!-- I linked my webpage to the normalize.css file so that it'll display as intended on most web browsers. -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Joshua Jacob</h1>
+      <h2>Software Developer</h2>
+    </header>
+    <!-- I used many nested semantic containers in order to better organize the content of my webpage. -->
+    <main>
+      <article>
+        <section>
+          <!-- My image was way too big to fit my web page, so I used an inline style attribute to change the size of my image. -->
+          <img src="Self-Portrait.jpg" alt="Picture of myself" style="width:400px;height:500px;"/>
+          <h3>Hi, I'm Josh! Nice to meet you!</h3>
+          <p>I'm a software developer who's still got a lot to learn, and I'm better off for it. That just means I still have a lot more room to grow! I'm currently living in Las Vegas, Nevada with the love of my life and our son Kota, the cutest Pomsky puppy you'll ever see.</p>
+        </section>
+    <hr>
+        <section>
+          <h3>About Josh</h3>
+          <p>I've been searching for a fresh start and I was able to find that through software development. I was starting to feel stuck in life, but now there's a whole new world of code for me to explore. I'm able to dive whole heartedly into learning more every day. My other passions include:</p>
+          <!-- Even though my list was technically centered along with everything else in the main container, it wasn't displaying the way I wanted it to. So, I nested both of my lists inside a div container. Then I could write some css code to target my lists specifically and change the margins --> 
+          <div>
+            <ul>
+            <li>Music (I play the guitar, the piano, and I sing a little)</li>
+            <li>Video games (I've been gaming since I was only 3 years old)</li>
+            <li>Comedy (How else are you supposed to get through life?)</li>
+            </ul>
+          </div>
+        </section>
+    <hr>
+        <section>
+          <h3>Contact Me</h3>
+          <p>I'm looking forward to hearing from you! Please feel free to contact or follow me at:</p>
+          <div>
+            <ol>
+            <!-- I added the target attribute to my links so that it'll open the link in a new tab -->
+            <li><a href="https://www.linkedin.com/in/josh-jacob-6095411b8/" target="_blank">My LinkedIn</a></li>
+            <li><a href="https://github.com/JoshJacobDev" target=")blank">My GitHub</a></li>
+            <li><a href="mailto:joshuapjacob97@gmail.com" target="blank">Email Me</a></li>
+            </ol>
+          </div>
+        </section>
+      </article>
+    </main>
+      <footer>
+      <p>Copyright</p>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
