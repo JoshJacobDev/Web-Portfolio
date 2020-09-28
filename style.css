@@ -1,0 +1,92 @@
+/* I'm changing the format of the header container to display the red bar that goes across the top of my web page */
+header {
+  background-color: rgb(173, 68, 68);
+  text-align: center;
+  height: 150px;
+  margin: -25px;
+  padding-bottom: 30px;
+}
+
+/* Manipulating how h1, my name, displays on my web page */
+h1 {
+  color: rgb(153, 206, 250);
+  font-family: Garamond, Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  margin: 15px;
+  padding: 10px
+}
+
+/* Manipulating how h2, Software Developer, displays on my web page */
+h2 {
+  color: white;
+  font-family: Cambria, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin: -10px;
+}
+
+/*Centers all content that falls inside the main container and creates the light red background of my web page */
+main {
+  background-color: rgb(240, 143, 143);
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Makes it possible for the image to be scaled down depending on the size of the device, but stops it from getting any bigger. */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Formatting the titles of the 3 different sections on my webpage */
+h3 {
+  color: rgb(111, 39, 129);
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 10px;
+  padding: 5px;
+}
+
+/* Formatting the text in all of my paragraphs and my lists. */
+p, li {
+  color: black; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 10px 350px;
+  padding: 0px;
+}
+
+/* The text-align wasn't displaying the list like I wanted it to. The bullet points/numbers were not aligned with the rest of the text. So I aligned the text in the lists to the left to align it with the bullet points/numbers and messed with the margins to center the lists on my web page.*/
+div {
+  text-align: left;
+  margin-left: 180px;
+}
+
+/* I had to specifically mess with the margins of the ordered list in my contact section. Since the length of the content in my ordered list is much shorter than my unordered list, it needed a different margin for it to display centered on my web page. */
+div ol {
+  text-align: left;
+  margin-left: 150px
+}
+
+/* Formatting the copyright text that appears in my footer and creates the dark red stripe that goes across the bottom of my web page. */
+footer p {
+  background-color: rgb(145, 40, 40);
+  color: white;
+  font-family: 'Times New Roman', Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: center; 
+  height: 40px;
+  margin: 0px;
+  padding: 40px;
+}
+
+/* Formatting the text of the links in my contact section. */
+a {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+/* Pseudo-classes to make the links in my contact section more interactive. */
+a:link    {color: blue}
+a:visited {color: purple}
+a:hover   {color:aqua}
+a:active  {color: pink}
